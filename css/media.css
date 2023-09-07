@@ -1,0 +1,267 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*	header start*/
+	header {
+    padding: 0px;
+	}
+	.logo-img {
+    max-width: 90%;
+	}
+	.logo-text {
+    font-size: 22px;
+	}
+	.menu ul {
+    padding-top: 15px;
+	}
+	.menu ul li a {
+    margin-bottom: 10px;
+    padding: 0 10px !important;
+	}
+		/*	banner start*/
+	.banner{
+		padding-bottom: 60px;
+	}
+ 	.b_txt {
+    text-align: center;
+	}
+	.b_h {
+    padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+    }
+    .b_p2 {
+    padding: 0;
+    line-height: 30px;
+	}
+	.b_img {
+    margin-bottom: 20px;
+ 	}
+ 	.b_link {
+    margin: 15px auto 0;
+	}
+	/*	feature start*/
+	.c_padd{
+	padding-bottom: 60px;	
+	}
+	.s_feature {
+    margin-top: 24px;
+	}
+	.f_img {
+    width: 60px;
+    height: 70px;
+	}
+/*	course start*/
+	.c_h1{
+    margin-bottom: 20px;
+		font-size: 25px;
+	}
+	.c_item{
+		margin: 30px 0 0;
+		padding: 10px 10px 15px;
+	}
+	.c_h2{
+		font-size: 20px;
+	}
+	.c_left ul li img, .c_right ul li img
+	{
+	width: 18px;
+	}
+	.c_left ul li span, .c_right ul li span
+	{
+	font-weight: 400;
+	}
+	.cli:not(:last-child) {
+    margin-right: 0px;
+	}
+	/*	testimony start*/
+	.test-h2 {
+		text-align: center;
+	 	font-size: 15px;
+    	line-height: 22px;
+    
+ }
+ .test-img {
+    margin: 30px 0 20px
+	}
+
+/*	footer top start*/
+	.footer_top{
+		text-align: center;
+		padding: 55px 0 20px;
+	}
+	.ft_details{
+		margin-bottom: 35px;
+		padding-right: 0;
+	}
+	.ft_links{
+		margin-bottom: 35px;
+	}
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {	
+/*	header start*/
+	header {
+    padding: 5px 0;
+	}
+	.logo-text {
+    font-size: 22px;
+	}
+	.menu ul {
+    padding-top: 15px;
+	}
+	.menu ul li a {
+    margin-bottom: 10px;
+    padding: 0 15px !important;
+	}
+	/*	banner start*/
+ 	.b_txt {
+    text-align: center;
+	}
+	.b_h {
+    padding: 0 40px 0;
+    font-size: 35px;
+    line-height: 50px;
+    }
+    .b_p2 {
+    padding: 0 30px 0;
+    line-height: 30px;
+	}
+	.b_img {
+    margin-bottom: 30px;
+    padding: 0 50px;
+ 	}
+ 	.b_link {
+    margin: 15px auto 0;
+	}
+	/*	feature start*/
+	.c_padd{
+	padding-bottom: 60px;	
+	}
+	.s_feature {
+    margin-top: 24px;
+	}
+	/*	course start*/
+	.c_h1{
+		margin-bottom: 45px;
+		font-size: 25px;
+	}
+	.c_item{
+		margin: 30px 60px 0;
+		padding: 20px 15px 25px;
+	}
+/*	testimony start*/
+	.test-h2 {
+		text-align: center;
+		font-size: 15px;
+    	line-height: 25px;
+    
+ }
+ .test-img {
+    margin-bottom: 30px;
+	}
+	/*	footer top start*/
+	.footer_top{
+		text-align: center;
+	}
+	.ft_details{
+		margin-bottom: 35px;
+		padding-right: 70px;
+		padding-left: 70px;
+	}
+}
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	header start*/
+	.menu ul li a {
+    margin-bottom: 10px;
+    padding: 0 15px !important;
+	}
+/*	banner start*/
+ 	.b_txt {
+    text-align: center;
+	}
+	.b_h {
+    padding: 0 81px 0;
+    }
+    .b_p2 {
+    padding: 0 100px 0;
+	}
+	.b_img {
+    margin-bottom: 30px;
+    padding: 0 100px;
+ 	}
+ 	.b_link {
+    margin: 15px auto 0;
+	}
+/*	feature start*/
+	.c_padd{
+	padding-bottom: 80px;	
+	}
+	.s_feature {
+    margin-top: 24px;
+	}
+/*	course start*/
+	.c_h1{
+	margin-bottom: 60px;
+	}
+	.c_item{
+		margin: 40px 100px 0;
+	}
+
+/*	footer top start*/
+	.footer_top{
+		text-align: center;
+	}
+	.ft_details{
+		margin-bottom: 35px;
+		padding-right: 80px;
+		padding-left: 80px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*	course start*/
+	.c_item{
+	padding: 24px 14px 30px;
+	}
+	.c_left ul li img, .c_right ul li img
+	{
+	width: 18px;
+	}
+	.c_left ul li span, .c_right ul li span
+	{
+	font-weight: 400;
+	}
+	.cli:not(:last-child) {
+    margin-right: 0px;
+	}
+}
+
+/*Extra Large devices (desktops, 1200 and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {...}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*	banner start*/
+	.b_h {
+    padding: 0 97px 0 0;
+ 	}
+ 	.b_p2 {
+    padding: 0px 117px 0 0;
+	}
+/*	feature start*/
+	.s_feature {
+    padding: 85px 0 80px;
+	}
+
+/*	footer top start*/
+	.ft_details{
+		padding-right: 130px;
+	}
+}
